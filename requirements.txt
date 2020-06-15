@@ -1,0 +1,3 @@
+py-air-control @ git+https://github.com/rgerganov/py-air-control/@3339159
+prometheus_client >= 0.8.0
+Flask >= 1.1.2
