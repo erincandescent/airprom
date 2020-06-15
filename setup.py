@@ -20,11 +20,7 @@ setuptools.setup(
     install_requires=[
         'py-air-control>=2.0.0',
         ],
-    entry_points={
-        'console_scripts': [
-            'airprom=airprom:main',
-        ],
-    },
+    scripts=["airprom.py"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: ISC License",
